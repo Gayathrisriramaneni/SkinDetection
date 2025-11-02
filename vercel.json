@@ -1,0 +1,11 @@
+{
+  "buildCommand": "next build",
+  "install": {
+    "bypassNodeAllowList": true
+  },
+  "build": {
+    "env": {
+      "npm_config_build_from_source": "true"
+    }
+  }
+}
